@@ -1,0 +1,11 @@
+*Amp 2spp
+ranksum area if(ab=="amp" & (spp=="S" | spp=="ES")), by(spp)
+ranksum area if(ab=="amp" & (spp=="S" | spp=="EM")), by(spp)
+ranksum area if(ab=="amp" & (spp=="S" | spp=="SM")), by(spp)
+ranksum area if(ab=="amp" & (spp=="S" | spp=="coop")), by(spp)
+ranksum area if(ab=="amp" & (spp=="ES" | spp=="EM")), by(spp)
+ranksum area if(ab=="amp" & (spp=="ES" | spp=="SM")), by(spp)
+ranksum area if(ab=="amp" & (spp=="ES" | spp=="coop")), by(spp)
+ranksum area if(ab=="amp" & (spp=="EM" | spp=="SM")), by(spp)
+ranksum area if(ab=="amp" & (spp=="EM" | spp=="coop")), by(spp)
+ranksum area if(ab=="amp" & (spp=="SM" | spp=="coop")), by(spp)

@@ -1,0 +1,11 @@
+*Amp
+ranksum area if(spp=="S" | spp=="2S"), by(spp)
+ranksum area if(spp=="S" | spp=="3S"), by(spp)
+ranksum area if(spp=="S" | spp=="coop"), by(spp)
+ranksum area if(spp=="S" | spp=="comp"), by(spp)
+ranksum area if(spp=="2S" | spp=="3S"), by(spp)
+ranksum area if(spp=="2S" | spp=="coop"), by(spp)
+ranksum area if(spp=="2S" | spp=="comp"), by(spp)
+ranksum area if(spp=="3S" | spp=="coop"), by(spp)
+ranksum area if(spp=="3S" | spp=="comp"), by(spp)
+ranksum area if(spp=="coop" | spp=="comp"), by(spp)
